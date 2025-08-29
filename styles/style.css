@@ -684,7 +684,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  #menu-btn {
+  .header #menu-btn {
     display: inline-block;
   }
 
@@ -708,6 +708,12 @@ a {
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
   }
 }
 /* ! responsive end */
